@@ -13,7 +13,6 @@ class StoryGenerator:
     
     @classmethod
     def _get_llm(cls):
-        # sample Python code snippet
         openai_api_key = os.getenv("CHOREO_OPENAI_CONNECTION_OPENAI_API_KEY")
         serviceurl = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
 
